@@ -1,0 +1,13 @@
+accuracy,attempted_accuracy,hallucination_rate,abstention_rate,f_score,n_correct,n_incorrect,n_not_attempted,unparseable,n,file,run
+0.65,0.7927,0.17,0.17,0.7291,65,17,17,1,100,simpleqa_claude_ans_gemini_judge_100.csv,simpleqa_claude_ans_gemini_judge_100
+0.59,0.7468,0.2,0.19,0.6827,59,20,19,2,100,simpleqa_claude_ans_muse_judge_100.csv,simpleqa_claude_ans_muse_judge_100
+0.6,0.6897,0.27,0.13,0.7102,60,27,13,0,100,simpleqa_gemini_ans_gemini_judge_100.csv,simpleqa_gemini_ans_gemini_judge_100
+0.57,0.7215,0.22,0.18,0.6725,57,22,18,3,100,simpleqa_gemini_ans_grok_judge_100.csv,simpleqa_gemini_ans_grok_judge_100
+0.59,0.7284,0.22,0.18,0.6862,59,22,18,1,100,simpleqa_gemini_ans_muse-spark_judge_100.csv,simpleqa_gemini_ans_muse-spark_judge_100
+0.61,0.7262,0.23,0.16,0.7068,61,23,16,0,100,simpleqa_grok_ans_gemini_judge_100.csv,simpleqa_grok_ans_gemini_judge_100
+0.61,0.7439,0.21,0.17,0.7032,61,21,17,1,100,simpleqa_grok_ans_muse_judge_100.csv,simpleqa_grok_ans_muse_judge_100
+0.6,0.7792,0.17,0.21,0.682,60,17,21,2,100,simpleqa_muse-spark_ans_qwen_judge_100.csv,simpleqa_muse-spark_ans_qwen_judge_100
+0.59,0.6941,0.26,0.13,0.7032,59,26,13,2,100,simpleqa_muse_ans_claude_judge_100.csv,simpleqa_muse_ans_claude_judge_100
+0.63,0.7875,0.17,0.2,0.7049,63,17,20,0,100,simpleqa_muse_ans_gemini_judge_100.csv,simpleqa_muse_ans_gemini_judge_100
+0.66,0.7857,0.18,0.15,0.743,66,18,15,1,100,simpleqa_muse_ans_muse_judge_100.csv,simpleqa_muse_ans_muse_judge_100
+0.62,0.747,0.21,0.14,0.7205,62,21,14,3,100,simpleqa_qwen_ans_muse-spark_judge_100.csv,simpleqa_qwen_ans_muse-spark_judge_100

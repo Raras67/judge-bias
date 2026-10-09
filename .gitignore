@@ -1,0 +1,26 @@
+# secrets
+.env
+*.env
+.env.*
+!.env.example
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+catta/
+
+# data & heavy results
+results/*.csv
+!results/summary_*.csv
+!results/gitkeep
+*.parquet
+data/
+
+# editor
+.DS_Store
+.idea/
+.vscode/
+*.bak
+*.swp

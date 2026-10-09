@@ -1,0 +1,7 @@
+openai>=1.50.0
+datasets>=2.19.0
+pandas>=2.2.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+scikit-learn>=1.4.0
