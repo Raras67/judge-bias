@@ -8,7 +8,7 @@ Usage:
 import sys
 from pathlib import Path
 
-# Pastikan root project ada di sys.path
+
 ROOT = Path(__file__).resolve().parent.parent
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
@@ -16,9 +16,9 @@ if str(ROOT) not in sys.path:
 import pandas as pd
 
 try:
-    from src.metrics import halueval_metrics
+    from src.metrics import simpleqa_metrics_with_ci
 except ImportError:
-    # fallback sederhana kalau metrics belum ada / beda nama
+    
     def halueval_metrics(y_true, y_pred):
         from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
         y_true = list(y_true)
@@ -50,7 +50,7 @@ def load_halueval_metrics(csv_path: Path):
     return m
 
 def simpleqa_metrics(df: pd.DataFrame):
-    # Cari kolom verdict
+    
     col = None
     for c in ["verdict", "prediction", "judge_verdict", "label", "result"]:
         if c in df.columns:
