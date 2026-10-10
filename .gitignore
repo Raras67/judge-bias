@@ -10,11 +10,23 @@ __pycache__/
 .venv/
 venv/
 catta/
+.pytest_cache/
+.coverage
+htmlcov/
 
 # data & heavy results
-results/*.csv
+results/*
 !results/summary_*.csv
+!results/bias_matrix.csv
+!results/bias_matrix_long.csv
 !results/gitkeep
+
+# notebook outputs
+notebooks/output/
+!notebooks/output/.gitkeep
+!notebooks/output/error_taxonomy_summary.csv
+
+# data
 *.parquet
 data/
 
