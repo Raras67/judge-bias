@@ -1,0 +1,13 @@
+answer_model,judge_model,accuracy,n,file
+claude,gemini,0.65,100,simpleqa_claude_ans_gemini_judge_100.csv
+claude,muse,0.59,100,simpleqa_claude_ans_muse_judge_100.csv
+gemini,gemini,0.6,100,simpleqa_gemini_ans_gemini_judge_100.csv
+gemini,grok,0.57,100,simpleqa_gemini_ans_grok_judge_100.csv
+gemini,muse-spark,0.59,100,simpleqa_gemini_ans_muse-spark_judge_100.csv
+grok,gemini,0.61,100,simpleqa_grok_ans_gemini_judge_100.csv
+grok,muse,0.61,100,simpleqa_grok_ans_muse_judge_100.csv
+muse-spark,qwen,0.6,100,simpleqa_muse-spark_ans_qwen_judge_100.csv
+muse,claude,0.59,100,simpleqa_muse_ans_claude_judge_100.csv
+muse,gemini,0.63,100,simpleqa_muse_ans_gemini_judge_100.csv
+muse,muse,0.66,100,simpleqa_muse_ans_muse_judge_100.csv
+qwen,muse-spark,0.62,100,simpleqa_qwen_ans_muse-spark_judge_100.csv

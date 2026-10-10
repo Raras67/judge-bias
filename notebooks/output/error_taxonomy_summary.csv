@@ -1,0 +1,13 @@
+file,CORRECT,NOT_ATTEMPTED,INCORRECT,UNPARSEABLE
+simpleqa_claude_ans_gemini_judge_100.csv,65,17,17,1.0
+simpleqa_claude_ans_muse_judge_100.csv,59,19,20,2.0
+simpleqa_gemini_ans_gemini_judge_100.csv,60,13,27,0.0
+simpleqa_gemini_ans_grok_judge_100.csv,57,18,22,3.0
+simpleqa_gemini_ans_muse-spark_judge_100.csv,59,18,22,1.0
+simpleqa_grok_ans_gemini_judge_100.csv,61,16,23,0.0
+simpleqa_grok_ans_muse_judge_100.csv,61,17,21,1.0
+simpleqa_muse-spark_ans_qwen_judge_100.csv,60,21,17,2.0
+simpleqa_muse_ans_claude_judge_100.csv,59,13,26,2.0
+simpleqa_muse_ans_gemini_judge_100.csv,63,20,17,0.0
+simpleqa_muse_ans_muse_judge_100.csv,66,15,18,1.0
+simpleqa_qwen_ans_muse-spark_judge_100.csv,62,14,21,3.0

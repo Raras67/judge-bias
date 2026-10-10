@@ -1,0 +1,7 @@
+answer_model,claude,gemini,grok,muse,muse-spark,qwen
+claude,,0.65,,0.59,,
+gemini,,0.6,0.57,,0.59,
+grok,,0.61,,0.61,,
+muse,0.59,0.63,,0.66,,
+muse-spark,,,,,,0.6
+qwen,,,,,0.62,
